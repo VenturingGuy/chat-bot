@@ -30,6 +30,7 @@ The input is initialized and the user is prompted to enter their response until 
 Until the user says good-bye, they'll keep being asked how they feel, calling the get_bot_response 
 and having a corresponding response printed out for them.
 '''
+
 user_response = ""
 
 while True:
