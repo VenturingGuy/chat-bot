@@ -9,7 +9,7 @@ def get_bot_response(user_response):
   elif user_response == "bad":
     return choice(bot_response_disappointed)
   else:
-    return "I... see. Come back any time. I'm here for you."
+    return "I... see? Well, come back any time. I'm here for you."
 
 print("Welcome back. It's been a while, hasn't it?")
 print("So, how have you been doing? Is your work going well? You feel [good] or [bad] about it?")
@@ -17,7 +17,7 @@ print("So, how have you been doing? Is your work going well? You feel [good] or 
 user_response = ""
 
 while True:
-  user_response = input("Well... How DO I feel about my progress today? ")
+  user_response = input("(Well... How DO I feel about my progress today?) ")
 
   if user_response == "good-bye":
     break
